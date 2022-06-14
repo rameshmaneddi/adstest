@@ -14,8 +14,8 @@ public class SendingMailController {
      public String sendingMail(@PathVariable String mail) {
     	 return SendingMailService.sendingMail(mail);
      }
-	@GetMapping("/verified")
-	public String verify() {
-		return "successfully verified";
-	}
+//	@GetMapping("/verified")
+//	public String verify() {
+//		return "successfully verified";
+//	}
 } 
